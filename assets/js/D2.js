@@ -61,7 +61,7 @@ if (totalShoppingCart > 50) {
 */
 let totalShoppingCart2 = 60;
 
-let totDiscount = totalShoppingCart2 - totalShoppingCart2 * 0.2;
+let totDiscount = totalShoppingCart2 * 0.8;
 console.log(totDiscount);
 
 totalShoppingCart2 = totDiscount;
