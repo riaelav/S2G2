@@ -168,5 +168,7 @@ console.log(list);
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+const lastIndex = list.length - 1;
+console.log(lastIndex);
+list.splice(lastIndex, 1, 100);
+console.log(list);
