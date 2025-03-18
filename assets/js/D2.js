@@ -3,7 +3,11 @@
 */
 let num1 = 5;
 let num2 = 10;
-console.log(num1 > num2 ? num1 : num2);
+if (num1 > num2) {
+  console.log(num1 + "maggiore" + num2);
+} else {
+  console.log(num2 + "maggiore" + num1);
+}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -157,8 +161,9 @@ console.log(me);
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+const list = [];
+list.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+console.log(list);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
